@@ -283,3 +283,27 @@ body
 .contact .btn .fa{
     margin-right: 10px;
 }
+
+.resume .btn
+{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid black;
+    background: black;
+}
+
+.resume .btn:focus{
+    box-shadow: none;
+}
+.resume .btn:hover
+{
+    border: 2pxsolid black !important;
+    background: black !important;
+    transition: 0.7s;
+}
+
+
+.resume .btn .fa{
+    margin-right: 10px;
+}
